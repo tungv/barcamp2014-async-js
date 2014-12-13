@@ -1,0 +1,211 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'iced-coffee-script' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'iced-coffee-script', null ]
+5 verbose cache add name=undefined spec="iced-coffee-script" args=["iced-coffee-script",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'iced-coffee-script',
+6 verbose parsed url   path: 'iced-coffee-script',
+6 verbose parsed url   href: 'iced-coffee-script' }
+7 silly lockFile a6a4c7e2-iced-coffee-script iced-coffee-script
+8 verbose lock iced-coffee-script /Users/siliconprime/.npm/a6a4c7e2-iced-coffee-script.lock
+9 silly lockFile a6a4c7e2-iced-coffee-script iced-coffee-script
+10 silly lockFile a6a4c7e2-iced-coffee-script iced-coffee-script
+11 verbose addNamed [ 'iced-coffee-script', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c0ee05de-iced-coffee-script iced-coffee-script@
+14 verbose lock iced-coffee-script@ /Users/siliconprime/.npm/c0ee05de-iced-coffee-script.lock
+15 silly addNameRange { name: 'iced-coffee-script', range: '*', hasData: false }
+16 verbose request where is /iced-coffee-script
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id c3d064259e8a8328
+19 verbose url raw /iced-coffee-script
+20 verbose url resolving [ 'https://registry.npmjs.org/', './iced-coffee-script' ]
+21 verbose url resolved https://registry.npmjs.org/iced-coffee-script
+22 verbose request where is https://registry.npmjs.org/iced-coffee-script
+23 info trying registry request attempt 1 at 16:47:17
+24 http GET https://registry.npmjs.org/iced-coffee-script
+25 http 200 https://registry.npmjs.org/iced-coffee-script
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sat, 13 Dec 2014 09:47:19 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"CTX5ENJ34BTLPTX33GAQ3WVSI"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '69485',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1418464039.183995,VS0,VE177',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'iced-coffee-script', range: '*', hasData: true }
+28 silly addNameRange versions [ 'iced-coffee-script',
+28 silly addNameRange   [ '1.6.3-b',
+28 silly addNameRange     '1.6.3-c',
+28 silly addNameRange     '1.6.3-d',
+28 silly addNameRange     '1.6.3-e',
+28 silly addNameRange     '1.6.3-f',
+28 silly addNameRange     '1.6.3-g',
+28 silly addNameRange     '1.6.3-h',
+28 silly addNameRange     '1.6.3-i',
+28 silly addNameRange     '1.6.3-j',
+28 silly addNameRange     '1.7.0-a',
+28 silly addNameRange     '1.7.1-a',
+28 silly addNameRange     '1.7.1-b',
+28 silly addNameRange     '1.7.1-c',
+28 silly addNameRange     '1.7.1-d',
+28 silly addNameRange     '1.7.1-e',
+28 silly addNameRange     '1.7.1-f',
+28 silly addNameRange     '1.7.1-g',
+28 silly addNameRange     '1.8.0-a',
+28 silly addNameRange     '1.8.0-b',
+28 silly addNameRange     '1.8.0-c',
+28 silly addNameRange     '1.2.0-c',
+28 silly addNameRange     '1.2.0-d',
+28 silly addNameRange     '1.2.0-e',
+28 silly addNameRange     '1.2.0-f',
+28 silly addNameRange     '1.2.0-g',
+28 silly addNameRange     '1.2.0-h',
+28 silly addNameRange     '1.2.0-i',
+28 silly addNameRange     '1.2.0-j',
+28 silly addNameRange     '1.2.0-k',
+28 silly addNameRange     '1.2.0-l',
+28 silly addNameRange     '1.2.0-m',
+28 silly addNameRange     '1.2.0-n',
+28 silly addNameRange     '1.2.0-o',
+28 silly addNameRange     '1.2.0-p',
+28 silly addNameRange     '1.2.0-q',
+28 silly addNameRange     '1.2.0-r',
+28 silly addNameRange     '1.2.0-s',
+28 silly addNameRange     '1.2.0-t',
+28 silly addNameRange     '1.2.0-u',
+28 silly addNameRange     '1.3.1-a',
+28 silly addNameRange     '1.3.1-b',
+28 silly addNameRange     '1.3.1-c',
+28 silly addNameRange     '1.3.3-a',
+28 silly addNameRange     '1.3.3-b',
+28 silly addNameRange     '1.3.3-c',
+28 silly addNameRange     '1.3.3-d',
+28 silly addNameRange     '1.3.3-e',
+28 silly addNameRange     '1.3.3-f',
+28 silly addNameRange     '1.3.3-g',
+28 silly addNameRange     '1.3.3-h',
+28 silly addNameRange     '1.4.0-a',
+28 silly addNameRange     '1.4.0-b',
+28 silly addNameRange     '1.4.0-c',
+28 silly addNameRange     '1.6.2-a',
+28 silly addNameRange     '1.6.2-b',
+28 silly addNameRange     '1.6.2-c',
+28 silly addNameRange     '1.6.2-d',
+28 silly addNameRange     '1.6.3-a' ] ]
+29 verbose addNamed [ 'iced-coffee-script', '1.8.0-c' ]
+30 verbose addNamed [ '1.8.0-c', '1.8.0-c' ]
+31 silly lockFile 67b327b2-iced-coffee-script-1-8-0-c iced-coffee-script@1.8.0-c
+32 verbose lock iced-coffee-script@1.8.0-c /Users/siliconprime/.npm/67b327b2-iced-coffee-script-1-8-0-c.lock
+33 silly lockFile 3662a012-t-iced-coffee-script-1-8-0-c-tgz https://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz
+34 verbose lock https://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz /Users/siliconprime/.npm/3662a012-t-iced-coffee-script-1-8-0-c-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz',
+35 verbose addRemoteTarball   'ac2607ecab78007390d9163ec023d022b015ba04' ]
+36 info retry fetch attempt 1 at 16:47:20
+37 verbose fetch to= /var/folders/np/_dkwmznx1gd9jd15t2ws8qzh0000gn/T/npm-97237-1cMHDda3/registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz
+38 http GET https://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz
+39 http 200 https://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz
+40 silly lockFile 3662a012-t-iced-coffee-script-1-8-0-c-tgz https://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz
+41 silly lockFile 3662a012-t-iced-coffee-script-1-8-0-c-tgz https://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz
+42 silly lockFile 67b327b2-iced-coffee-script-1-8-0-c iced-coffee-script@1.8.0-c
+43 silly lockFile 67b327b2-iced-coffee-script-1-8-0-c iced-coffee-script@1.8.0-c
+44 silly lockFile c0ee05de-iced-coffee-script iced-coffee-script@
+45 silly lockFile c0ee05de-iced-coffee-script iced-coffee-script@
+46 silly resolved [ { name: 'iced-coffee-script',
+46 silly resolved     description: 'IcedCoffeeScript',
+46 silly resolved     author: { name: 'Jeremy Ashkenas + Maxwell Krohn' },
+46 silly resolved     version: '1.8.0-c',
+46 silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+46 silly resolved     license: 'MIT',
+46 silly resolved     engines: { node: '>=0.8.0' },
+46 silly resolved     directories: { lib: './lib/coffee-script' },
+46 silly resolved     main: './lib/coffee-script/coffee-script',
+46 silly resolved     bin: { iced: './bin/coffee', icake: './bin/cake' },
+46 silly resolved     scripts:
+46 silly resolved      { test: 'node ./bin/cake test',
+46 silly resolved        'test-harmony': 'node --harmony ./bin/cake test' },
+46 silly resolved     homepage: 'http://maxtaco.github.io/coffee-script',
+46 silly resolved     bugs: { url: 'https://github.com/maxtaco/coffee-script/issues' },
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/maxtaco/coffee-script.git' },
+46 silly resolved     devDependencies:
+46 silly resolved      { 'uglify-js': '~2.2',
+46 silly resolved        jison: '>=0.2.0',
+46 silly resolved        'highlight.js': '~8.0.0',
+46 silly resolved        underscore: '~1.5.2',
+46 silly resolved        docco: '~0.6.2',
+46 silly resolved        browserify: '^4.1.8' },
+46 silly resolved     dependencies: { docco: '~0.6.2', 'iced-runtime': '>=0.0.1', mkdirp: '~0.3.5' },
+46 silly resolved     gitHead: '109acbd5d7bc64e292951ff1539bee8f00cd9a75',
+46 silly resolved     _id: 'iced-coffee-script@1.8.0-c',
+46 silly resolved     _shasum: 'ac2607ecab78007390d9163ec023d022b015ba04',
+46 silly resolved     _from: 'iced-coffee-script@',
+46 silly resolved     _npmVersion: '1.4.28',
+46 silly resolved     _npmUser: { name: 'maxtaco', email: 'themax@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'ac2607ecab78007390d9163ec023d022b015ba04',
+46 silly resolved        tarball: 'http://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz' },
+46 silly resolved     _resolved: 'https://registry.npmjs.org/iced-coffee-script/-/iced-coffee-script-1.8.0-c.tgz' } ]
+47 info install iced-coffee-script@1.8.0-c into /usr/local/lib
+48 info installOne iced-coffee-script@1.8.0-c
+49 verbose lib/node_modules/iced-coffee-script unbuild
+50 verbose tar unpack /Users/siliconprime/.npm/iced-coffee-script/1.8.0-c/package.tgz
+51 silly lockFile 1f927c69--node-modules-iced-coffee-script tar:///usr/local/lib/node_modules/iced-coffee-script
+52 verbose lock tar:///usr/local/lib/node_modules/iced-coffee-script /Users/siliconprime/.npm/1f927c69--node-modules-iced-coffee-script.lock
+53 silly lockFile f97b0f14-offee-script-1-8-0-c-package-tgz tar:///Users/siliconprime/.npm/iced-coffee-script/1.8.0-c/package.tgz
+54 verbose lock tar:///Users/siliconprime/.npm/iced-coffee-script/1.8.0-c/package.tgz /Users/siliconprime/.npm/f97b0f14-offee-script-1-8-0-c-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/iced-coffee-script'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/iced-coffee-script']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/iced-coffee-script',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/iced-coffee-script',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.0.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "iced-coffee-script"
+60 error cwd /Users/siliconprime/WebstormProjects/barcamp-asynchronous-js
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/iced-coffee-script
+64 error fstream_path /usr/local/lib/node_modules/iced-coffee-script
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/iced-coffee-script'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]

@@ -1,0 +1,27 @@
+{
+  "name": "barcamp-asynchronous-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "event-emitter.js",
+  "dependencies": {
+    "fibrous": "^0.3.3",
+    "q": "^1.1.2",
+    "rsvp": "^3.0.14"
+  },
+  "devDependencies": {
+    "streamline": "^0.10.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmanvn/barcamp2014-async-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmanvn/barcamp2014-async-js/issues"
+  },
+  "homepage": "https://github.com/gmanvn/barcamp2014-async-js"
+}

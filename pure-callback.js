@@ -4,26 +4,14 @@
 
 function async(msg, callback) {
   setTimeout(function () {
-    callback(msg + " world")
+    callback("hello " + msg)
   }, 1000);
 }
 
-async("hello", function (result) {
+async("callback", function (result) {
   console.log(result);
 });
 
 console.log("start");
 
-function asyncPromise(msg) {
-
-}
-
-asyncPromise("hello").then(...)
-
-var emitter = new EventEmiter
-emitter.on('finish async task', function () { });
-
-function asyncEvent() {
-  emitter.emit('finish async task', "abcd")
-}
 

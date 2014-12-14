@@ -9,3 +9,4 @@ function asyncStreamline(msg, _) {
 
 console.log("start");
 console.log(asyncStreamline("streamline", _));
+console.log("test");

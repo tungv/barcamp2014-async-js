@@ -5,7 +5,7 @@
 function eventually(number, callback) {
   var ms = Math.floor(1000 + Math.random() * 1000);
   setTimeout(function () {
-    callback(number);
+    callback(number)
   }, ms)
 }
 
@@ -20,9 +20,9 @@ function eventuallySum(a, b, c, callback) {
     }
   }
 
-  [a,b,c].forEach(function (n) {
-    eventually(n, check);
-  })
+  eventually(a, check);
+  eventually(b, check);
+  eventually(c, check);
 }
 
 eventuallySum(1,2,3, function (result){
